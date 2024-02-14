@@ -2,7 +2,7 @@
 
 This repo follows the instructions provided [here](https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html) to deploy a S3 bucket.
 
-A new user in IAM was created with the following permissions:
+A new user in IAM was created with the following permissions with the help of codewhisper🤖:
 
 ```json
 
@@ -74,7 +74,7 @@ A new user in IAM was created with the following permissions:
 }
 ```
 
-Then the code was modified to have versioning and encryption handled by S3:
+Then the code was modified to have versioning and encryption handled by S3 with the help of codewhisper🤖:
 
 ```python
         bucket = s3.Bucket(
